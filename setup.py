@@ -229,5 +229,5 @@ setup(
     setup_requires=['wheel', 'cython', 'setuptools_scm'],
     include_package_data=True,
     entry_points={"console_scripts": ["scalene = scalene.__main__:main"]},
-    python_requires=">=3.8,!=3.11.0",
+    python_requires=">=3.8",
 )
